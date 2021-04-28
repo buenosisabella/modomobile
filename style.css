@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+section{
+    position:fixed;
+}
+.box-container{
+    width: 100px;
+    height: 35px;
+    background-color: #0C0500;
+    color: #ffff;
+    display: none;
+    position: absolute;
+}
+@media(max-width: 400px){
+    .box-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 375px){
+    .main1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left:110px;
+        top: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+@media(max-width:375px){
+    .modo-mobile{
+        width: 375px;
+        display:block;
+        margin-top: 35px;
+    }
+}
+@media(max-width:375px){
+    .box-main1{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main2{]
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+ 
+@media(max-width:375px){
+    .box-main3{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}   
+
+@media(max-width:375px){
+    .box-main4{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+} 
+
+@media(max-width:375px){
+    .box-main5{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main6{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main7{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main8{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+@media(max-width:375px){
+    .box-main9{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main10{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .box-main11{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+@media(max-width:375px){
+    .box-main12{
+        width: 290px;
+    height: 290px;
+        margin-left: 45px;
+    }
+}
+
+
+@media(max-width:375px){
+    .width-footer{
+        width: 370px;
+        display: flex;
+        position: absolute;
+        top:4350px;
+        
+    }
+}
